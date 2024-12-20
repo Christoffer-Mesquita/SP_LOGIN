@@ -1,5 +1,5 @@
 # Configuração do MongoDB
-mongodb-uri: "mongodb+srv://abc:abc@sensitiveprison.yyndp.mongodb.net/?retryWrites=true&w=majority&appName=SensitivePrison"
+mongodb-uri: ""
 
 # Configurações de localização
 locations:
