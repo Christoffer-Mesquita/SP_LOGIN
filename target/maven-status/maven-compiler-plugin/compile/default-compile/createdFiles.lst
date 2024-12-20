@@ -1,0 +1,17 @@
+org/zerolegion/sp_login/manager/AuthManager.class
+org/zerolegion/sp_login/session/SessionManager$SessionData.class
+org/zerolegion/sp_login/data/PlayerData.class
+org/zerolegion/sp_login/listeners/AuthListener.class
+org/zerolegion/sp_login/manager/LogManager.class
+org/zerolegion/sp_login/listeners/AuthListener$2.class
+org/zerolegion/sp_login/utils/TitleManager.class
+org/zerolegion/sp_login/commands/LoginCommand.class
+org/zerolegion/sp_login/utils/LogManager.class
+org/zerolegion/sp_login/commands/SessionCommand.class
+org/zerolegion/sp_login/utils/MessageUtils.class
+org/zerolegion/sp_login/commands/RegisterCommand.class
+org/zerolegion/sp_login/listeners/AuthListener$1.class
+org/zerolegion/sp_login/session/SessionManager.class
+org/zerolegion/sp_login/SP_LOGIN.class
+org/zerolegion/sp_login/manager/LocationManager.class
+org/zerolegion/sp_login/commands/AuthAdminCommand.class

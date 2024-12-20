@@ -1,0 +1,50 @@
+# Configuração do MongoDB
+mongodb-uri: "mongodb+srv://abc:abc@sensitiveprison.yyndp.mongodb.net/?retryWrites=true&w=majority&appName=SensitivePrison"
+
+# Configurações de localização
+locations:
+  # Configuração do spawn principal (será definido in-game)
+  spawn:
+    world: "world"
+    x: 0.0
+    y: 64.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+
+# Configurações de sessão
+session:
+  # Tempo em minutos que a sessão permanece ativa
+  duration: 1440 # 24 horas
+  # Se o sistema de sessão está ativado
+  enabled: true
+  # Mensagens do sistema de sessão
+  messages:
+    active: "Sua sessão está ativa! Tempo restante: &e%time%"
+    expired: "Sua sessão expirou. Por favor, faça login novamente"
+    not-found: "Você não possui uma sessão ativa no momento"
+
+# Configurações de autenticação
+auth:
+  # Tempo máximo (em segundos) para o jogador se autenticar
+  timeout: 60
+  # Distância mínima do spawn para permitir movimentação sem autenticação
+  spawn-radius: 10
+  # Mensagens de autenticação
+  messages:
+    welcome: "&6Sensitive &f| &6Bem-vindo ao &3&lSensitive Prison"
+    login-required: "&6Sensitive &f| &ePor favor, utilize &f/login <senha> &epara entrar"
+    register-required: "&6Sensitive &f| &ePor favor, utilize &f/register <senha> <senha> &epara se registrar"
+    login-success: "&6Sensitive &f| &eLogin realizado com sucesso! Bem-vindo de volta"
+    register-success: "&6Sensitive &f| &eConta registrada com sucesso! Bem-vindo ao servidor"
+    login-failed: "&6Sensitive &f| &cSenha incorreta! Tente novamente"
+    already-logged: "&6Sensitive &f| &cVocê já está autenticado!"
+    already-registered: "&6Sensitive &f| &cEsta conta já está registrada!"
+    timeout: "&6Sensitive &f| &cTempo limite de autenticação excedido"
+    auto-login: "&6Sensitive &f| &eLogin automático realizado através da sessão ativa"
+    passwords-not-match: "&6Sensitive &f| &cAs senhas não coincidem! Tente novamente"
+    password-too-short: "&6Sensitive &f| &cA senha deve ter no mínimo 6 caracteres"
+    spawn-set: "&6Sensitive &f| &aSpawn definido com sucesso!"
+    teleported-spawn: "&6Sensitive &f| &aTeleportado para o spawn!"
+
+# Plugin feito por ZeroLegion para a Sensitive Prison

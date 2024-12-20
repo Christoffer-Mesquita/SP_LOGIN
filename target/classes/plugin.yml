@@ -1,0 +1,30 @@
+name: SP_LOGIN
+version: '1.0-SNAPSHOT'
+main: org.zerolegion.sp_login.SP_LOGIN
+authors: [ZeroLegion]
+description: Sistema de autenticação para o servidor Sensitive Prison
+website: sensitive.com.br
+
+commands:
+  login:
+    description: Faz login no servidor
+    usage: /login <senha>
+    aliases: [l]
+  register:
+    description: Registra-se no servidor
+    usage: /register <senha> <senha>
+    aliases: [reg]
+  session:
+    description: Verifica o status da sua sessão
+    usage: /session
+    aliases: [sess]
+  auth:
+    description: Comandos administrativos do sistema de autenticação
+    usage: /auth admin <subcomando>
+    aliases: [authadmin]
+    permission: sensitive.auth.admin
+
+permissions:
+  sensitive.auth.admin:
+    description: Permite usar comandos administrativos do sistema de autenticação
+    default: op

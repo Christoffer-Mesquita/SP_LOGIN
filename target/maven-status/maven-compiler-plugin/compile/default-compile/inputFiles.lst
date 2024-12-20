@@ -1,0 +1,14 @@
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/SP_LOGIN.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/utils/MessageUtils.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/commands/AuthAdminCommand.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/utils/TitleManager.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/manager/LogManager.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/listeners/AuthListener.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/data/PlayerData.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/session/SessionManager.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/manager/AuthManager.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/commands/RegisterCommand.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/commands/LoginCommand.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/utils/LogManager.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/manager/LocationManager.java
+/Users/christoffer/Documents/SP_LOGIN/src/main/java/org/zerolegion/sp_login/commands/SessionCommand.java
